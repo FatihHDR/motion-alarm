@@ -1,39 +1,18 @@
-# Motion Detector Arduino
+# Arduino ESP8266 Helper
 
 ## Overview
-This repository contains the Arduino microcontroller code for an infrared motion sensor that interfaces with an Android application. When motion is detected, the microcontroller communicates with the Android app via Bluetooth to trigger an alert sound and display a notification.
+The Arduino ESP8266 Helper is a robust class designed to facilitate communication between an Arduino board and an ESP8266 module. This helper class streamlines the process of sending and receiving data over WiFi, making it easier for developers to integrate IoT features into their projects.
 
 ## Features
-- **Motion Detection**: Utilizes an infrared motion sensor to detect movement.
-- **Bluetooth Communication**: Sends alerts to an Android application via Bluetooth.
-- **Interactive Notifications**: Plays a sound and shows a notification on the Android device when motion is detected.
-- **Alarm Control**: Allows the alarm to be temporarily disabled from the Android app.
-- **Connection Loss Handling**: Plays a distinct sound if the Bluetooth connection is lost during operation.
-
-## Requirements
-- An Arduino microcontroller.
-- An infrared motion sensor.
-- The [Arduino ESP8266 Helper library] for the Wi-Fi functionality.
-- A compatible Android application.
+- Simplified methods for connecting to WiFi networks.
+- Easy-to-use functions for sending and receiving data.
+- Support for Over-The-Air (OTA) updates.
+- Detailed debugging output for development and troubleshooting.
 
 ## Installation
-1. Clone this repository to your local machine.
-2. Open the Arduino code in the Arduino IDE.
-3. Connect the infrared motion sensor to your Arduino as per the circuit diagram provided.
-4. Upload the code to your Arduino microcontroller.
-5. Ensure the Android application is installed and running on your device.
-6. Pair your Arduino with your Android device via Bluetooth.
-
-## Usage
-Once the setup is complete, the system will automatically start detecting motion and sending notifications to the connected Android application. You can disable the alarm for 1 minute through the app interface.
-
-For full project details and a step-by-step guide, please visit Shane Jansen's project page.
-
-## Contributing
-Contributions are welcome! If you have any suggestions or improvements, please fork the repository and submit a pull request.
-
-## License
-This project is open-sourced under the MIT License. See the LICENSE file for more details.
-
-## Contact
-For any queries or issues, please open an issue on the GitHub repository or contact the maintainers directly.
+To install the Arduino ESP8266 Helper, follow these steps:
+1. Download the latest release from the GitHub repository.
+2. Unzip the downloaded file.
+3. Copy the `ArduinoESP8266Helper` folder to your Arduino `libraries` directory.
+4. Restart the Arduino IDE.
+5. You should now be able to include the library in your sketches with `#include <ArduinoESP8266Helper.h>`.
