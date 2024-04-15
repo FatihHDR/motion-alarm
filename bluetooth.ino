@@ -5,7 +5,6 @@ const int RX_PIR = 8;
 const int RX_BLUE = 3;
 const int TX_BLUE = 4;
 
-//data
 boolean motionTransmitInProgress = false;
 long motionTimeSent;
 boolean isWaiting = false;
