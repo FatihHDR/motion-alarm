@@ -27,8 +27,6 @@ This repository contains the Arduino microcontroller code for an infrared motion
 ## Usage
 Once the setup is complete, the system will automatically start detecting motion and sending notifications to the connected Android application. You can disable the alarm for 1 minute through the app interface.
 
-For full project details and a step-by-step guide, please visit Shane Jansen's project page.
-
 ## Contributing
 Contributions are welcome! If you have any suggestions or improvements, please fork the repository and submit a pull request.
 
